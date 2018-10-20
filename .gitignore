@@ -24,4 +24,5 @@ gradle-app.setting
 ## File-based project format:
 *.iws
 
-## Plugin-specific files:
+## avoid ignoring gradle-wrapper
+!/gradle/wrapper/gradle-wrapper.jar
