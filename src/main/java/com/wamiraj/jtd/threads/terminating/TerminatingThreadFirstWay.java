@@ -19,7 +19,7 @@ public class TerminatingThreadFirstWay {
         new Thread(taskE2, "Task 2").start();
         new Thread(taskE3, "Task 3").start();
 
-        TimeUnit.MILLISECONDS.sleep(3000);
+        TimeUnit.MILLISECONDS.sleep( 3000);
 
         taskE1.cancel();
         taskE2.cancel();
