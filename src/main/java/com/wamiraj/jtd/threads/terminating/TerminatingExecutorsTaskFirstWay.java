@@ -8,8 +8,20 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+
+/**
+ * The type Terminating executors task first way.
+ */
 public class TerminatingExecutorsTaskFirstWay {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     *             {@link FactorialTaskA}
+     * @throws InterruptedException the interrupted exception
+     * @see InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
         String currentThreadName = Thread.currentThread().getName();
 
